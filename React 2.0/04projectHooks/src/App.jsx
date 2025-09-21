@@ -31,7 +31,7 @@ function App() {
       window.navigator.clipboard.writeText(password)
   },[password])
 
-  useEffect(()=>{
+  useEffect(()=>{ 
       passGenerator()
   },[length,numAllowed,charAllowed,passGenerator])
 
