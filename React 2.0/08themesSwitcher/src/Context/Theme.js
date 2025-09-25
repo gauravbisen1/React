@@ -1,6 +1,6 @@
 import { createContext , useContext } from "react";
 
-//usercontext and use context at place ***
+//usercontext and use context at same place ***
 
 export const ThemeContext = createContext({//vatiable and method can be give
     themeMode : "light", //default
